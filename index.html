@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat Detect</title>
     <link rel="stylesheet" href="https://ez-css.now.sh/">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <label for="chatdetect">RegEX</label>
     <input type="text" class="textdetect" id="chatdetect" placeholder="RegEX to detect">
-    <h1 class="count"></h1>
+
+    <label for="channels">Channels</label>
+    <input type="text" class="channels" id="channels" placeholder="">
+    <button id="addChannel">Add Channel</button>
+    <h1 class="info">Waiting for input</h1>
+    <h2 class="count"></h1>
     <h3 class="people" ></h3>
     <script src="tmi.js"></script>
     <script src="index.js"></script>

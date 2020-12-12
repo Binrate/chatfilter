@@ -1,0 +1,10 @@
+button {
+    border-radius: 10px;
+    border-color: black;
+    background: white;
+    width: auto;
+    padding: 15px;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
